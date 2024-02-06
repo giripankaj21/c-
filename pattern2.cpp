@@ -1,17 +1,16 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a;
-    
+    int n;
+    cin>>n;
     int row=1;
-    cin>>a;
-    while(row<=a){
+    while(row<=n){
         int col=1;
         while(col<=row){
-            cout<<row<<" ";
+            cout<<col<<" ";
             col++;
         }
-        row++;
         cout<<endl;
+        row++;
     }
 }
