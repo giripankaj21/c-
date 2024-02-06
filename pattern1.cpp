@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a=1;
+    int b;
+    int row=1;
+    cin>>b;
+    while(a<=b){
+        while(a<=row){
+            cout<<row<<" ";
+            a++;
+        }
+        row++;
+        cout<<endl;
+    }
+}
